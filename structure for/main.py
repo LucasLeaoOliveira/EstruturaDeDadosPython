@@ -1,16 +1,34 @@
-# This is a sample Python script.
+for i in range(1,6):
+    print(i)
+print("===========================")
+for i in range(5,0,-1):
+    print(i)
+print("===========================")
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+soma = -15
+for i in range(1,6):
+    print(soma)
+    print(f"+{i}")
+    soma = soma+i
+print(soma)
 
+print("===========================")
+print()
+palavra= 'soverte'
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+for i in palavra:
+    print(i)
+print()
+print("===========================")
+print()
+for letra in palavra:
+    if letra =='v':
+        print("achou a letra v")
+print("===========================")
+print()
+for i in range (0,5):
+    print(i)
+    print("----")
+    for j in range(0,3):
+        print(j)
+    print()
