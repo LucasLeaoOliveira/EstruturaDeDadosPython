@@ -1,16 +1,37 @@
-# This is a sample Python script.
+tupla = ('Homo sapiens','Canis familiaris','Felis catus')
+print(tupla[0])
+print(tupla[1])
+print(tupla[2])
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+print(tupla.index('Canis familiaris'))
 
+for i in tupla:
+    print(i)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+list1 = ['Homo sapiens','Canis familiaris','Felis catus']
 
+list2 = ['Lucas Leão', 'Heloisa']
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+print(list1,'\n',list2)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+lista3 = list1 + list2
+
+print(lista3)
+
+lista2_nova = list2*2
+print(lista2_nova)
+
+print(list2[0],"\n",list2[1])
+
+print(list1[0:2])
+
+list2.append('Amor')
+
+print(list2)
+
+list2.remove('Amor')
+
+print(list2)
+
+for j in list1:
+    print(j)
