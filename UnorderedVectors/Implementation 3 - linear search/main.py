@@ -21,8 +21,11 @@ class VetorNaoOrdenado:
             self.ultimaPosicao +=1
             self.valores[self.ultimaPosicao] = valor
 
-
-
+    def pesquisar(self,valor):
+            for i in range(self.ultimaPosicao + 1):
+                if valor == self.valores[i]:
+                    print(i)
+            return -1
 
 if __name__ == '__main__':
 
@@ -51,6 +54,11 @@ if __name__ == '__main__':
     vetor.imprime()
     print('===========')
     vetor.insere(6)
+    print('============')
     print(vetor.ultimaPosicao)
+    print('============')
     print(vetor.valores)
-
+    print('============')
+    vetor.pesquisar(4)
+    print('============')
+    vetor.pesquisar(50)
